@@ -1,7 +1,7 @@
 node{
 
-   def tomcatWeb = 'C:\\Devops\Software\apache-tomcat-10.1.1\\webapps'
-   def tomcatBin = 'C:\\Devops\Software\apache-tomcat-10.1.1\\bin'
+   def tomcatWeb = 'C:\\Devops\\Software\\apache-tomcat-10.1.1\\webapps'
+   def tomcatBin = 'C:\\Devops\\Software\\apache-tomcat-10.1.1\\bin'
    def tomcatStatus = ''
    stage('SCM Checkout'){
      git 'https://github.com/vamshireddy-81/sbi-repo.git'
